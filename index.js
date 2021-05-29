@@ -38,6 +38,4 @@ client.connect(() => {
     console.log("Database connected");
 })
 
-app.listen(port, () => {
-    console.log("Server is at 8000");
-});
+app.listen(port)
